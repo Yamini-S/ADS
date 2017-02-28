@@ -1,0 +1,24 @@
+FROM python:3.5
+
+MAINTAINER Team6
+
+RUN apt-get update
+
+RUN mkdir /Docker_Case1Part1
+
+ADD requirements.txt /Docker_Case1Part1/requirements.txt
+
+RUN pip install -r /Docker_Case1Part1/requirements.txt
+
+#RUN pip install --no-cache-dir -r /Docker_Case1Part1/requirements.txt
+
+ADD ./Part1Code.py /Docker_Case1Part1
+
+#ADD ./Part1CodeTest.py /Docker_Case1Part1
+
+WORKDIR /Docker_Case1Part1
+
+CMD python Part1Code.py 
+
+
+

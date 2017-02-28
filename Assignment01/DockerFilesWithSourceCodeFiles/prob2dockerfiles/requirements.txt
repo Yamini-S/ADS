@@ -1,0 +1,9 @@
+urllib3
+boto
+datetime
+pandas
+lxml
+#zipfile
+#csv
+bs4
+

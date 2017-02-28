@@ -1,0 +1,24 @@
+FROM python:3.5
+
+MAINTAINER Team6
+
+RUN apt-get update
+
+RUN mkdir /Docker_Case1Prob2
+
+ADD requirements.txt /Docker_Case1Prob2/requirements.txt
+
+RUN pip install -r /Docker_Case1Prob2/requirements.txt
+
+#RUN pip install --no-cache-dir -r /Docker_Case1Part1/requirements.txt
+
+ADD ./Prob2Code.py /Docker_Case1Prob2
+
+#ADD ./Prob2Code.py /Docker_Case1Prob2
+
+WORKDIR /Docker_Case1Prob2
+
+CMD python Prob2Code.py 
+
+
+

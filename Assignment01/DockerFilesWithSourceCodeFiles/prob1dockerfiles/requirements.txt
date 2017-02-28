@@ -1,0 +1,13 @@
+urllib3
+boto
+pandas
+lxml
+#boto.s3.connection
+#S3Connection
+#Key
+#shutil
+#urllib.request
+#urlopen
+bs4	
+#BeautifulSoup
+
