@@ -1,0 +1,14 @@
+#urllib3
+datetime
+pandas
+lxml
+bs4
+matplotlib
+norm
+cookiejar
+h2o
+tabulate
+seaborn
+sklearn
+statsmodels
+IPython

@@ -1,0 +1,15 @@
+urllib3
+datetime
+pandas
+lxml
+bs4
+matplotlib
+#scipy.stats
+norm
+#pylab
+#io
+seaborn
+sklearn
+statsmodels
+requests
+

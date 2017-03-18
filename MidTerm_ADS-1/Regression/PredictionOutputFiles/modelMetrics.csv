@@ -1,0 +1,11 @@
+,Algorithm,RMSE,MAE,MAPE,Model,Model_Rank
+0,Linear Regression,0.3243122178426088,0.2492461171318047,4.255456154316975,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)",2.0
+1,Random Forest,0.3347859353030709,0.25654889279095255,4.455899688112888,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=4, max_leaf_nodes=None, min_impurity_split=1e-07,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=True, random_state=1, verbose=0, warm_start=False)",3.0
+2,Knn Regression,0.36305893676002154,0.28146139017554067,4.816308309968416,"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+          weights='uniform')",4.0
+3,Neural Network,0.080185593663394,0.28317060875626554,0.21300465955404552,h2Omodel,1.0

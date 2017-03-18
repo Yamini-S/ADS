@@ -1,0 +1,17 @@
+urllib3
+datetime
+pandas
+lxml
+bs4
+#matplotlib
+#scipy.stats
+seaborn
+sklearn
+statsmodels
+#sys
+datetime
+#zipfile
+#io
+#csv
+#numpy
+#math
