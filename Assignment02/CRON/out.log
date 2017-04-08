@@ -1,0 +1,322 @@
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+Received error: An error occurred (404) when calling the HeadObject operation: Not Found
+404
+======================
+File Not Found On S3 Bucket
+======================
+=========================
+Downloading Loan Data Set to Local
+=========================
+=====================
+loanDataFileDocker2.csv
+Inside downloadLoanDataSet
+=====================
+https://resources.lendingclub.com/LoanStats3a.csv.zip
+After First Iteration
+(42536, 111)
+https://resources.lendingclub.com/LoanStats3b.csv.zip
+Total rows and columns in the data files tables
+(230717, 111)
+https://resources.lendingclub.com/LoanStats3c.csv.zip
+Total rows and columns in the data files tables
+(466346, 111)
+https://resources.lendingclub.com/LoanStats3d.csv.zip
+Total rows and columns in the data files tables
+(887441, 111)
+https://resources.lendingclub.com/LoanStats_2016Q1.csv.zip
+Total rows and columns in the data files tables
+(1021328, 111)
+https://resources.lendingclub.com/LoanStats_2016Q2.csv.zip
+Total rows and columns in the data files tables
+(1119182, 111)
+https://resources.lendingclub.com/LoanStats_2016Q3.csv.zip
+Total rows and columns in the data files tables
+(1218302, 111)
+https://resources.lendingclub.com/LoanStats_2016Q4.csv.zip
+Total rows and columns in the data files tables
+(1321848, 111)
+=========================
+Completed Downloading Loan Data Set to Local
+=========================
+========================
+Uploading Reject Loan Data File to S3 bucket
+========================
+=========================
+Downloading Reject Loan Data Set to Local
+=========================
+=====================
+rejectLoanDataFileDocker2.csv
+Inside downloadRejectLoanDataSet
+=====================
+https://resources.lendingclub.com/RejectStatsA.csv.zip
+After First Iteration
+(755491, 9)
+https://resources.lendingclub.com/RejectStatsB.csv.zip
+Total rows and columns in the data files tables
+(3450133, 9)
+https://resources.lendingclub.com/RejectStatsD.csv.zip
+Total rows and columns in the data files tables
+(6309512, 9)
+https://resources.lendingclub.com/RejectStats_2016Q1.csv.zip
+Total rows and columns in the data files tables
+(7405716, 9)
+https://resources.lendingclub.com/RejectStats_2016Q2.csv.zip
+Total rows and columns in the data files tables
+(8402277, 9)
+https://resources.lendingclub.com/RejectStats_2016Q3.csv.zip
+Total rows and columns in the data files tables
+(9674896, 9)
+https://resources.lendingclub.com/RejectStats_2016Q4.csv.zip
+Total rows and columns in the data files tables
+(11079386, 9)
+=========================
+Completed Downloading Reject Loan Data Set to Local
+=========================
+========================
+Uploading Reject Loan Data File to S3 bucket
+========================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+======================
+File Already Exists On S3 Bucket
+======================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+======================
+File Already Exists On S3 Bucket
+======================
+=========================
+Started Preprocessing & Feature Engineering of Loan & Reject Loan Data Sets
+=========================
+Amount_Requested        float64
+Application_Date         object
+Loan_Title               object
+Risk_Score              float64
+Debt-To-Income-Ratio     object
+Zip_Code                 object
+State                    object
+Employment_Length        object
+Policy_Code               int64
+dtype: object
+Amount_Requested         0.000000
+Application_Date         0.000000
+Loan_Title               0.000000
+Risk_Score              57.790017
+Debt-To-Income-Ratio     0.000000
+Zip_Code                 0.002626
+State                    0.000199
+Employment_Length        3.202930
+Policy_Code              0.000000
+Risk_Score_Mean          0.000000
+Risk_Score_Median        0.000000
+dtype: float64
+Unnamed: 0                      int64
+loan_amnt                     float64
+funded_amnt                   float64
+funded_amnt_inv               float64
+term                           object
+int_rate                       object
+installment                   float64
+grade                          object
+sub_grade                      object
+emp_title                      object
+emp_length                     object
+home_ownership                 object
+annual_inc                    float64
+verification_status            object
+issue_d                        object
+loan_status                    object
+pymnt_plan                     object
+purpose                        object
+title                          object
+zip_code                       object
+addr_state                     object
+dti                           float64
+delinq_2yrs                   float64
+earliest_cr_line               object
+inq_last_6mths                float64
+mths_since_last_delinq        float64
+open_acc                      float64
+pub_rec                       float64
+revol_bal                     float64
+revol_util                     object
+                               ...   
+delinq_amnt                   float64
+mo_sin_old_il_acct            float64
+mo_sin_old_rev_tl_op          float64
+mo_sin_rcnt_rev_tl_op         float64
+mo_sin_rcnt_tl                float64
+mort_acc                      float64
+mths_since_recent_bc          float64
+mths_since_recent_inq         float64
+num_accts_ever_120_pd         float64
+num_actv_bc_tl                float64
+num_actv_rev_tl               float64
+num_bc_sats                   float64
+num_bc_tl                     float64
+num_il_tl                     float64
+num_op_rev_tl                 float64
+num_rev_accts                 float64
+num_rev_tl_bal_gt_0           float64
+num_sats                      float64
+num_tl_120dpd_2m              float64
+num_tl_30dpd                  float64
+num_tl_90g_dpd_24m            float64
+num_tl_op_past_12m            float64
+pct_tl_nvr_dlq                float64
+percent_bc_gt_75              float64
+pub_rec_bankruptcies          float64
+tax_liens                     float64
+tot_hi_cred_lim               float64
+total_bal_ex_mort             float64
+total_bc_limit                float64
+total_il_high_credit_limit    float64
+dtype: object
+=========================
+Completed Preprocessing & Feature Engineering of Loan & Reject Loan Data Sets
+=========================
+========================
+Uploading Reject Loan Data File to S3 bucket
+========================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+======================
+File Already Exists On S3 Bucket
+======================
+=========================
+Summarization has started!
+=========================
+=========================
+Summarization has completed!
+=========================
+========================
+Uploading Reject Loan Data File to S3 bucket
+========================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+======================
+File Already Exists On S3 Bucket
+======================
+========================
+Uploading Loan Data File to S3 bucket
+========================
+=========================
+Completed Uploading Loan Data File to S3 bucket
+=========================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+======================
+File Already Exists On S3 Bucket
+======================
+========================
+Uploading Reject Loan Data File to S3 bucket
+========================
+========================
+Completed Uploading Reject Loan Data File to S3 bucket
+========================
+===========================
+Checking if bucket exists
+===========================
+===========================
+Bucket found!
+===========================
+======================
+File Already Exists On S3 Bucket
+======================
+========================
+Uploading Summary Files to S3 bucket
+========================
+========================
+Completed Uploading Summary Files to S3 bucket
+========================
